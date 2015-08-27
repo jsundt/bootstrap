@@ -77,6 +77,14 @@ New to Bootstrap 4 is the Reboot, a new stylesheet that builds on Normalize with
 
 - Added a new `~480px` grid breakpoint, meaning there are now five total tiers.
 
+### Buttons
+
+- Dropped the `.btn-xs` class entirely.
+
+### Button group
+
+- Dropped the `.btn-group-xs` class entirely.
+
 ### Navs
 
 - Dropped nearly all `>` selectors for simpler styling via un-nested classes.
@@ -89,6 +97,20 @@ New to Bootstrap 4 is the Reboot, a new stylesheet that builds on Normalize with
 ### Panels, thumbnails, and wells
 
 Dropped entirely for the new card component.
+
+#### Panels
+
+- `.panel` to `.card`
+- `.panel-default` removed and no replacement
+- `.panel-heading` to `.card-header`
+- `.panel-title` to `.card-title`
+- `.panel-body` to `.card-block`
+- `.panel-footer` to `.card-footer`
+- `.panel-primary` to `.card-primary` and `.card-inverse`
+- `.panel-success` to `.card-success` and `.card-inverse`
+- `.panel-info` to `.card-info` and `.card-inverse`
+- `.panel-warning` to `.card-warning` and `.card-inverse`
+- `.panel-danger` to `.card-danger` and `.card-inverse`
 
 ### Carousel
 
