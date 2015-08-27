@@ -48,7 +48,7 @@ If you're using Bootstrap's compiled CSS, this the example you'll want to start 
 </div>
 {% endexample %}
 
-The above example creates three equal-width columns on small, medium, large, and extra large devices using our [predefined grid classes](). Those columns are centered in the page with the parent `.container`.
+The above example creates three equal-width columns on small, medium, large, and extra large devices using our [predefined grid classes](#predefined-classes). Those columns are centered in the page with the parent `.container`.
 
 ## Grid options
 
@@ -129,7 +129,7 @@ See how aspects of the Bootstrap grid system work across multiple devices with a
 
 ## Sass mixins
 
-When using Bootstrap's source Sass files, you have the option of using Sass variables and mixins to create custom, semantic, and responsive page layouts. Our [prebuilt grid classes](#example-stacked-to-horizontal) use these same variables and mixins to provide a whole suite of ready-to-use classes for fast responsive layouts.
+When using Bootstrap's source Sass files, you have the option of using Sass variables and mixins to create custom, semantic, and responsive page layouts. Our [predefined grid classes](#predefined-classes) use these same variables and mixins to provide a whole suite of ready-to-use classes for fast responsive layouts.
 
 ### Variables
 
@@ -317,7 +317,7 @@ Build on the previous example by creating even more dynamic and powerful layouts
   <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
   <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
   <!-- Optional: clear the XS cols if their content doesn't match in height -->
-  <div class="clearfix visible-xs-block"></div>
+  <div class="clearfix hidden-sm-up"></div>
   <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
 </div>
 {% endexample %}
@@ -348,7 +348,7 @@ With the four tiers of grids available you're bound to run into issues where, at
   <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
 
   <!-- Add the extra clearfix for only the required viewport -->
-  <div class="clearfix visible-xs-block"></div>
+  <div class="clearfix hidden-sm-up"></div>
 
   <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
   <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
